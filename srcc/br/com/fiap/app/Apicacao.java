@@ -48,9 +48,9 @@ public class Apicacao {
 		Partida p6 = new Partida(juv , pal , gC, gV);
 		
 		System.out.println(sp.getNome() + " "+ sp.getPontos());
-		System.out.println(cor.getNome() + " "+ sp.getPontos());
-		System.out.println(pal.getNome() + " "+ sp.getPontos());
-		System.out.println(juv.getNome() + " "+ sp.getPontos());
+		System.out.println(cor.getNome() + " "+ cor.getPontos());
+		System.out.println(pal.getNome() + " "+ pal.getPontos());
+		System.out.println(juv.getNome() + " "+ juv.getPontos());
 		
 
 	}
