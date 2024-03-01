@@ -22,6 +22,12 @@ public class time {
 		this.pontos = pontos;
 	}
 	
-	
+	public void addVitoria() {
+		pontos = pontos +3;
+		
+	}
+	public void addEmpante() {
+		pontos++;
+	}
 
 }
